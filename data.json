@@ -48,7 +48,7 @@
             "description": "An aged cheese with a bold, sharp taste, crafted for cheese enthusiasts who enjoy intense flavors. Perfect for grating over dishes or enjoying on its own.",
             "shortDescription": "Aged cheese with a sharp taste.",
             "category": "Cheese",
-            "images": ["product/Kanchan_sharp.jpg", "product/Kanchan_sharp1.jpg"],
+            "images": ["product/kanchan_sharp.jpg", "product/kanchan_sharp1.jpg"],
             "features": [
                 "Bold and sharp flavor",
                 "Aged for intensity",
@@ -207,3 +207,4 @@
     ]
 
 }
+
