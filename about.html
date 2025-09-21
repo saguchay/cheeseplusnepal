@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Cheese Plus Nepal - Premium Cheese & Dairy in Kathmandu</title>
+    <meta name="description" content="Learn about Cheese Plus Nepal, a fast-casual store in Thamel, Kathmandu, offering premium cheese and dairy products for health-conscious customers.">
+    <meta name="keywords" content="Cheese Plus Nepal, About Us, Yak Cheese, dairy products, Kathmandu, Thamel, Nepal cheese shop, healthy cheese">
+    <meta name="author" content="Cheese Plus Nepal">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="NP">
+    <meta name="geo.placename" content="Kathmandu, Nepal">
+    <meta name="geo.position" content="27.710165;85.308036">
+    <meta name="ICBM" content="27.710165, 85.308036">
+    <meta property="og:title" content="About Cheese Plus Nepal - Premium Cheese & Dairy">
+    <meta property="og:description" content="Discover the story of Cheese Plus Nepal, committed to quality, innovation, and sustainability in Thamel, Kathmandu.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.cheeseplusnepal.com/about.html">
+    <meta property="og:image" content="https://www.cheeseplusnepal.com/logo.webp">
+    <meta property="og:site_name" content="Cheese Plus Nepal">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Cheese Plus Nepal - Best Cheese in Kathmandu">
+    <meta name="twitter:description" content="Learn about Cheese Plus Nepal’s mission to provide premium cheese and dairy products in Thamel, Kathmandu.">
+    <meta name="twitter:image" content="https://www.cheeseplusnepal.com/logo.webp">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffd54f 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(255, 245, 157, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            width: 100%;
+            max-width: 1400px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container {
+            max-width: 150px;
+            height: 60px;
+        }
+
+        .logo {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-menu a {
+            color: #3e2723;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: #ffca28;
+        }
+
+        .about-section {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            background: rgba(255, 245, 157, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .about-text {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .about-text h2 {
+            font-size: 2.2rem;
+            color: #3e2723;
+            margin-bottom: 15px;
+        }
+
+        .about-text p {
+            font-size: 1rem;
+            color: #5d4037;
+            margin-bottom: 15px;
+        }
+
+        .about-image {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 300px;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        .director-message {
+            width: 100%;
+            max-width: 1200px;
+            background: rgba(255, 245, 157, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .director-message h2 {
+            font-size: 2rem;
+            color: #3e2723;
+            margin-bottom: 15px;
+        }
+
+        .director-message p {
+            font-size: 1rem;
+            color: #5d4037;
+            margin-bottom: 10px;
+        }
+
+        .director-message .director-name {
+            font-size: 1.1rem;
+            color: #3e2723;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        .contact-section {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            background: rgba(255, 245, 157, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .contact-details {
+            flex: 1;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .contact-details h2 {
+            font-size: 2rem;
+            color: #3e2723;
+            margin-bottom: 20px;
+        }
+
+        .contact-details p {
+            font-size: 1rem;
+            color: #5d4037;
+            margin-bottom: 10px;
+        }
+
+        .contact-map {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .contact-map iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 15px;
+        }
+
+        .social-media {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .social-media a {
+            color: #3e2723;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            color: #ffca28;
+        }
+
+        .cookie-consent {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            background: rgba(255, 245, 157, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            display: none;
+            text-align: center;
+        }
+
+        .cookie-consent p {
+            font-size: 0.9rem;
+            color: #5d4037;
+            margin-bottom: 10px;
+        }
+
+        .cookie-consent button {
+            background: #ffca28;
+            border: none;
+            border-radius: 10px;
+            padding: 8px 15px;
+            color: #3e2723;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .cookie-consent button:hover {
+            background: #ffb300;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav-menu {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .about-section {
+                flex-direction: column;
+            }
+
+            .about-image img {
+                height: 250px;
+            }
+
+            .contact-section {
+                flex-direction: column;
+            }
+
+            .contact-map iframe {
+                height: 250px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-container {
+                max-width: 120px;
+                height: 50px;
+            }
+
+            .nav-menu a {
+                font-size: 0.9rem;
+            }
+
+            .about-text h2,
+            .director-message h2,
+            .contact-details h2 {
+                font-size: 1.5rem;
+            }
+
+            .about-image img {
+                height: 200px;
+            }
+
+            .contact-map iframe {
+                height: 200px;
+            }
+
+            .cookie-consent {
+                bottom: 10px;
+                left: 10px;
+                right: 10px;
+                padding: 10px;
+            }
+
+            .cookie-consent p {
+                font-size: 0.8rem;
+            }
+
+            .cookie-consent button {
+                padding: 6px 12px;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="logo.webp" alt="Cheese Plus Nepal Logo" class="logo">
+        </div>
+        <div class="nav-menu">
+            <a href="index.html"><i class="fas fa-home"></i> </a>
+            <a href="#about">About Us</a>
+            <a href="index.html#products">Products</a>
+            <a href="index.html#gallery">Gallery</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="about-section" id="about">
+        <div class="about-text">
+            <h2>About Cheese Plus Nepal</h2>
+            <p>We believe that the best service makes a customer, not sales. That's why we strive to be not just the best but legendary.</p>
+            <p>Cheese Plus Nepal is a fast-casual store that serves the best quality cheese and dairy products for the health-conscious customers in Nepal. We understand that our customers are health-conscious and have busy lives with little time for preparing quality products.</p>
+            <p>Unlike its competitors, Cheese Plus Nepal alleviates the target customer’s pain points by providing easy and quick service.</p>
+            <p>At Cheese Plus Nepal, we aim to improve lives around the world. Committed to innovation and sustainability, Cheese Company, and our division, Hilmar Ingredients, serves customers in more than 10 countries. State-of-the-art production facilities in Kathmandu convert an abundance of high-quality milk into a variety of nutritious cheeses, whey protein, and lactose.</p>
+        </div>
+        <div class="about-image">
+            <img src="cheese-shop.jpg" alt="Cheese Plus Nepal Store" loading="lazy">
+        </div>
+    </div>
+
+    <div class="director-message">
+        <h2>Message from Director</h2>
+        <p>Cheese is a great source of calcium, fat, and protein. It also contains high amounts of vitamins A and B12, along with zinc, phosphorus, and riboflavin. According to dairy experts, the overall nutritional profile of conventional, organic, and grass-fed dairy products is similar.</p>
+        <p class="director-name">- Pasang Chenga Thing</p>
+    </div>
+
+    <div class="contact-section" id="contact">
+        <div class="contact-details">
+            <h2>Contact Us</h2>
+            <p>Location: Thamel, Kathmandu, Nepal</p>
+            <p>Contact Number: +977 1-1234567</p>
+            <p>Email: info@cheeseplusnepal.com</p>
+            <div class="social-media">
+                <a href="https://facebook.com/cheeseplusnepal" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://tiktok.com/@cheeseplusnepal" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://instagram.com/cheeseplusnepal" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@cheeseplusnepal" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.223879628397!2d85.30803621506274!3d27.71016528278918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18f8e7c4b5d1%3A0x2b6f7b8b5a7d7f8e!2sThamel%2C%20Kathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sus!4v1697901234567!5m2!1sen!2sus" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="cookie-consent" id="cookie-consent">
+        <p>We use cookies to enhance your experience. By continuing, you agree to our use of cookies.</p>
+        <button onclick="acceptCookies()">Accept</button>
+    </div>
+
+    <script>
+        // Encryption for cookies
+        const secretKey = 'cheeseplusnepal2025';
+        function encrypt(data) {
+            let result = '';
+            for (let i = 0; i < data.length; i++) {
+                result += String.fromCharCode(data.charCodeAt(i) ^ secretKey.charCodeAt(i % secretKey.length));
+            }
+            return btoa(result);
+        }
+
+        function decrypt(data) {
+            try {
+                const decoded = atob(data);
+                let result = '';
+                for (let i = 0; i < decoded.length; i++) {
+                    result += String.fromCharCode(decoded.charCodeAt(i) ^ secretKey.charCodeAt(i % secretKey.length));
+                }
+                return result;
+            } catch (e) {
+                return null;
+            }
+        }
+
+        // Cookie handling
+        function setCookie(name, value, days) {
+            const encryptedValue = encrypt(value);
+            const expires = new Date();
+            expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+            document.cookie = `${name}=${encryptedValue};expires=${expires.toUTCString()};path=/`;
+        }
+
+        function getCookie(name) {
+            const nameEQ = name + "=";
+            const cookies = document.cookie.split(';');
+            for (let cookie of cookies) {
+                cookie = cookie.trim();
+                if (cookie.indexOf(nameEQ) === 0) {
+                    const encryptedValue = cookie.substring(nameEQ.length);
+                    return decrypt(encryptedValue);
+                }
+            }
+            return null;
+        }
+
+        function acceptCookies() {
+            setCookie('cookieConsent', 'accepted', 365);
+            document.getElementById('cookie-consent').style.display = 'none';
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            if (!getCookie('cookieConsent')) {
+                document.getElementById('cookie-consent').style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>

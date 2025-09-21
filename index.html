@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese Plus Nepal - Best Cheese & Dairy Products in Kathmandu</title>
+    <meta name="description" content="Discover premium cheese and dairy products at Cheese Plus Nepal in Thamel, Kathmandu. Enjoy high-quality Yak Cheese, Mozzarella, and more for health-conscious customers.">
+    <meta name="keywords" content="Cheese Plus Nepal, Yak Cheese, Mozzarella, dairy products, Kathmandu, Thamel, Nepal cheese shop, healthy cheese, premium cheese">
+    <meta name="author" content="Cheese Plus Nepal">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="NP">
+    <meta name="geo.placename" content="Kathmandu, Nepal">
+    <meta name="geo.position" content="27.710165;85.308036">
+    <meta name="ICBM" content="27.710165, 85.308036">
+    <meta property="og:title" content="Cheese Plus Nepal - Premium Cheese & Dairy in Kathmandu">
+    <meta property="og:description" content="Explore the finest cheese and dairy products at Cheese Plus Nepal, Thamel. From Yak Cheese to Mozzarella, perfect for health-conscious food lovers.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.cheeseplusnepal.com">
+    <meta property="og:image" content="https://www.cheeseplusnepal.com/logo.webp">
+    <meta property="og:site_name" content="Cheese Plus Nepal">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cheese Plus Nepal - Best Cheese in Kathmandu">
+    <meta name="twitter:description" content="Shop premium cheese like Yak Cheese and Mozzarella at Cheese Plus Nepal in Thamel, Kathmandu. Fast and quality service for health-conscious customers.">
+    <meta name="twitter:image" content="https://www.cheeseplusnepal.com/logo.webp">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="logo.webp" alt="Cheese Plus Nepal Logo" class="logo">
+        </div>
+        <div class="nav-menu">
+            <a href="#home"><i class="fas fa-home"></i> </a>
+            <a href="about.html">About Us</a>
+            <a href="#products">Products</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="welcome-section">
+        <div class="welcome-text">
+            <h2>Welcome To Cheese Plus Nepal</h2>
+            <p>We believe that the best service makes a customer, not sales. That's why we strive to be not just the best but legendary.</p>
+            <p>Cheese Plus Nepal is a fast-casual store that serves the best quality cheese and dairy products for the health-conscious customers in Nepal. We understand that its customers are health-conscious and have busy lives with little time for preparing quality products.</p>
+            <p>Unlike its competitors, Cheese Plus Nepal alleviates the target customer’s pain points by providing easy and quick service.</p>
+            <button class="health-benefits-btn" onclick="showPopup()">Health Benefits of Cheese</button>
+        </div>
+        <div class="welcome-video">
+            <iframe src="https://www.youtube.com/embed/wxm8jTzU_8o?si=gkhK9sEdxk_-f60O" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="popup" id="health-benefits-popup">
+        <button class="close-popup" onclick="hidePopup()">×</button>
+        <h3>Health Benefits of Cheese</h3>
+        <ul>
+            <li>Cheese Can Prevent Osteoporosis</li>
+            <li>Cheese Can Have a Positive Effect on Your Dental Health</li>
+            <li>Cheese Consumption Can Help You Gain Weight in a Healthy Way</li>
+            <li>Cheese is the Best Dietary Source for Calcium</li>
+            <li>Cheese is an Excellent Source of Protein and Vitamin B12</li>
+            <li>Cheese Can Reverse Hypertension by Lowering Blood Pressure</li>
+            <li>Cheese Benefits the Immune System</li>
+        </ul>
+    </div>
+
+    <div class="main-product" id="main-product">
+        <div class="product-details" id="product-details">
+            <h2 class="product-title" id="main-title"></h2>
+            <p class="product-description" id="main-description"></p>
+            <p class="product-category" id="main-category"></p>
+            <div class="product-features" id="main-features">
+                <h3>Features</h3>
+                <ul id="features-list"></ul>
+            </div>
+        </div>
+        <div class="product-image-container" id="image-container">
+            <img class="product-image" id="main-image" src="" alt="">
+            <button class="slider-btn left" onclick="slideImage('prev')">&#8249;</button>
+            <button class="slider-btn right" onclick="slideImage('next')">&#8250;</button>
+        </div>
+    </div>
+
+    <div class="products-carousel" id="products">
+        <button class="carousel-btn left" id="product-carousel-prev" onclick="slideProductCarousel('prev')">&#8249;</button>
+        <div class="products-container" id="products-container"></div>
+        <button class="carousel-btn right" id="product-carousel-next" onclick="slideProductCarousel('next')">&#8250;</button>
+    </div>
+
+    <div class="reviews-section" id="reviews">
+        <h2>Customer Reviews</h2>
+        <button class="carousel-btn left" id="review-carousel-prev" onclick="slideReviewCarousel('prev')">&#8249;</button>
+        <div class="reviews-container" id="reviews-container"></div>
+        <button class="carousel-btn right" id="review-carousel-next" onclick="slideReviewCarousel('next')">&#8250;</button>
+    </div>
+
+    <div class="contact-section" id="contact">
+        <div class="contact-details">
+            <h2>Contact Us</h2>
+            <p>Location: Thamel, Kathmandu, Nepal</p>
+            <p>Contact Number: +977 1-1234567</p>
+            <p>Email: info@cheeseplusnepal.com</p>
+            <div class="social-media">
+                <a href="https://facebook.com/cheeseplusnepal" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://tiktok.com/@cheeseplusnepal" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://instagram.com/cheeseplusnepal" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@cheeseplusnepal" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.223879628397!2d85.30803621506274!3d27.71016528278918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18f8e7c4b5d1%3A0x2b6f7b8b5a7d7f8e!2sThamel%2C%20Kathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sus!4v1697901234567!5m2!1sen!2sus" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="cookie-consent" id="cookie-consent">
+        <p>We use cookies to enhance your experience. By continuing, you agree to our use of cookies.</p>
+        <button onclick="acceptCookies()">Accept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

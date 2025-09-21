@@ -1,0 +1,208 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Yak Cheese",
+            "description": "Rich and creamy cheese made from yak milk, sourced from high-altitude Himalayan regions. Known for its unique flavor and smooth texture, this cheese is a favorite among cheese enthusiasts.",
+            "shortDescription": "Creamy yak milk cheese with a rich flavor.",
+            "category": "Best Selling",
+            "images": ["product/yak_cheese.jpg", "product/yak_cheese1.jpg"],
+            "features": [
+                "High in protein and calcium",
+                "Unique nutty flavor",
+                "Sourced from Himalayan yaks",
+                "Ideal for gourmet dishes"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Smokey Cheese",
+            "description": "Smooth cheese infused with a distinct smoky flavor, crafted through a traditional smoking process. Perfect for grilling, sandwiches, or as a bold addition to cheese platters.",
+            "shortDescription": "Smooth cheese with a smoky flavor.",
+            "category": "Cheese",
+            "images": ["product/Smokey_Cheese1.jpg", "product/Smokey_Cheese.jpg"],
+            "features": [
+                "Distinct smoky aroma",
+                "Perfect for grilling",
+                "Rich and creamy texture",
+                "Great for cheese boards"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Kanchan Cheese",
+            "description": "A mild and versatile cheese with a smooth texture, suitable for everyday use in sandwiches, cooking, or as a table cheese. Loved for its subtle flavor and creamy consistency.",
+            "shortDescription": "Mild cheese for everyday use.",
+            "category": "Cheese",
+            "images": ["product/Kanchan_cheese.jpg", "product/Kanchan_cheese1.jpg"],
+            "features": [
+                "Mild and versatile",
+                "Smooth and creamy",
+                "Ideal for sandwiches",
+                "Great for cooking"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Kanchan Sharp",
+            "description": "An aged cheese with a bold, sharp taste, crafted for cheese enthusiasts who enjoy intense flavors. Perfect for grating over dishes or enjoying on its own.",
+            "shortDescription": "Aged cheese with a sharp taste.",
+            "category": "Cheese",
+            "images": ["product/Kanchan_sharp.jpg", "product/Kanchan_sharp1.jpg"],
+            "features": [
+                "Bold and sharp flavor",
+                "Aged for intensity",
+                "Perfect for grating",
+                "Great for cheese platters"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Mozzarella",
+            "description": "Soft and stretchy mozzarella cheese, crafted for perfect melting. Ideal for pizzas, pastas, and Italian dishes, offering a creamy texture and mild flavor.",
+            "shortDescription": "Soft mozzarella for pizzas and pastas.",
+            "category": "Best Selling",
+            "images": ["product/Mozzarella.jpg", "product/mozzarella2.jpg"],
+            "features": [
+                "Perfect for melting",
+                "Creamy and stretchy",
+                "Ideal for Italian dishes",
+                "Mild and fresh flavor"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Feta Cheese",
+            "description": "Crumbly and tangy feta cheese, perfect for salads, Mediterranean dishes, or as a topping. Made with traditional methods for an authentic taste.",
+            "shortDescription": "Tangy feta for salads.",
+            "category": "Cheese",
+            "images": ["product/feta.jpg", "product/feta1.jpg"],
+            "features": [
+                "Crumbly texture",
+                "Tangy and salty flavor",
+                "Perfect for Mediterranean dishes",
+                "Great for salads"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Parmesan Cheese",
+            "description": "Hard, granular cheese with a nutty and savory flavor, aged to perfection. Ideal for grating over pastas, soups, or salads for an extra depth of taste.",
+            "shortDescription": "Nutty parmesan for grating.",
+            "category": "Cheese",
+            "images": ["product/parmesan.jpg", "product/parmesan1.jpg"],
+            "features": [
+                "Hard and granular",
+                "Nutty and savory flavor",
+                "Aged for richness",
+                "Ideal for grating"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Cheddar Cheese",
+            "description": "Classic cheddar with a rich, sharp taste and smooth texture. Perfect for sandwiches, burgers, or as a snack, offering a robust flavor profile.",
+            "shortDescription": "Rich cheddar for sandwiches.",
+            "category": "Cheese",
+            "images": ["product/Chhedar.jpg", "product/Chhedar1.jpg"],
+            "features": [
+                "Rich and sharp taste",
+                "Smooth texture",
+                "Great for sandwiches",
+                "Perfect for snacking"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Amul Mozzarella",
+            "description": "High-quality mozzarella from Amul, designed for excellent melting properties. Perfect for pizzas, lasagnas, and other dishes requiring a gooey cheese texture.",
+            "shortDescription": "Amul mozzarella for melting.",
+            "category": "Cheese",
+            "images": ["product/amul_mozzarella.jpg", "product/amul_mozzarella1.jpg"],
+            "features": [
+                "Excellent melting properties",
+                "Creamy texture",
+                "Ideal for pizzas",
+                "High-quality ingredients"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Amul Slice Cheese",
+            "description": "Convenient cheese slices from Amul, perfect for quick snacks, sandwiches, or burgers. Offers a creamy texture and mild flavor for everyday use.",
+            "shortDescription": "Convenient cheese slices.",
+            "category": "Cheese",
+            "images":  ["product/amul_slice1.jpg", "product/amul_slice.jpg"],
+            "features": [
+                "Pre-sliced for convenience",
+                "Creamy and mild",
+                "Perfect for sandwiches",
+                "Great for quick snacks"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Amul Spread Cheese",
+            "description": "Creamy and spreadable cheese from Amul, ideal for breads, crackers, or as a dip. Offers a smooth texture and rich flavor for versatile use.",
+            "shortDescription": "Creamy cheese spread.",
+            "category": "Cheese",
+            "images": ["product/spread.jpg", "product/spread1.jpg"],
+            "features": [
+                "Smooth and spreadable",
+                "Rich flavor",
+                "Ideal for breads",
+                "Great as a dip"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Goat Cheese",
+            "description": "Tangy and creamy goat cheese, crafted for gourmet dishes. Perfect for salads, appetizers, or as a spread, offering a distinctive flavor.",
+            "shortDescription": "Tangy goat cheese for gourmet dishes.",
+            "category": "Cheese",
+            "images": ["product/goat.jpg", "product/goat1.jpg"],
+            "features": [
+                "Tangy and creamy",
+                "Distinctive flavor",
+                "Perfect for gourmet dishes",
+                "Great for salads"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Blue Cheese",
+            "description": "Bold and tangy blue cheese with a creamy texture and distinctive veining. Ideal for gourmet dishes, salads, or cheese boards for a robust flavor.",
+            "shortDescription": "Bold blue cheese for gourmet dishes.",
+            "category": "Cheese",
+            "images": ["product/blue.jpg", "product/blue1.jpg"],
+            "features": [
+                "Bold and tangy flavor",
+                "Creamy with blue veining",
+                "Ideal for gourmet dishes",
+                "Great for cheese boards"
+            ]
+        }
+    ],
+    "reviews": [
+        {
+            "name": "Sarita Shrestha",
+            "text": "The Yak Cheese is absolutely divine! Perfect texture and flavor.",
+            "image": "review1.jpg"
+        },
+        {
+            "name": "Rajesh Thapa",
+            "text": "Love the quick service and the quality of Mozzarella is unmatched.",
+            "image": "review2.jpg"
+        },
+        {
+            "name": "Anita Gurung",
+            "text": "The Smokey Cheese adds such a great flavor to my dishes!",
+            "image": "review3.jpg"
+        },
+        {
+            "name": "Suman Lama",
+            "text": "Feta Cheese is perfect for my salads, fresh and tangy!",
+            "image": "review4.jpg"
+        }
+    ]
+}
