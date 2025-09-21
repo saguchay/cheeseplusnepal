@@ -104,7 +104,7 @@
             "description": "Classic cheddar with a rich, sharp taste and smooth texture. Perfect for sandwiches, burgers, or as a snack, offering a robust flavor profile.",
             "shortDescription": "Rich cheddar for sandwiches.",
             "category": "Cheese",
-            "images": ["product/Chhedar.jpg", "product/Chhedar1.jpg"],
+            "images": ["product/chhedar.jpg", "product/chhedar1.jpg"],
             "features": [
                 "Rich and sharp taste",
                 "Smooth texture",
@@ -205,4 +205,5 @@
             "image": "review4.jpg"
         }
     ]
+
 }
